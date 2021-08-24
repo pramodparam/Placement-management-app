@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#EE43A047"
+    tools:context=".UpdatePlacementDetail">
+
+    <EditText
+        android:id="@+id/StName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColorHint="#FF8F00"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints="no"
+        android:background="#C0CA33"
+        android:gravity="center"
+        android:hint="@string/enter_name_placementDetail"
+        android:inputType="textPersonName|text|textCapWords" />
+
+
+    <EditText
+        android:id="@+id/StUSN"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:textColorHint="#FF8F00"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints="no"
+        android:background="#C0CA33"
+        android:gravity="center"
+        android:hint="@string/enter_usn_placdetail"
+        android:inputType="text" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColorHint="#FF8F00"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/emailPD"
+        android:layout_marginEnd="20dp"
+        android:background="#C0CA33"
+        android:hint="@string/enter_email_address_PD"
+        android:inputType="textEmailAddress"
+        android:autofillHints="no" />
+
+    <EditText
+        android:id="@+id/compNamePD"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#FF8F00"
+        android:layout_marginEnd="20dp"
+        android:autofillHints="no"
+        android:background="#C0CA33"
+        android:gravity="center"
+        android:hint="@string/enter_company_name_student"
+        android:inputType="textMultiLine|textPersonName|textCapWords" />
+
+    <EditText
+        android:id="@+id/companyPD"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints="no"
+        android:textColorHint="#FF8F00"
+        android:background="#C0CA33"
+        android:gravity="center"
+        android:hint="@string/enter_company_address_PD"
+        android:lines="4"
+        android:inputType="textMultiLine|textPersonName|textCapWords" />
+    <EditText
+        android:id="@+id/coursePD"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints="no"
+        android:background="#C0CA33"
+        android:textColorHint="#FF8F00"
+        android:gravity="center"
+        android:hint="@string/enter_department_student"
+        android:inputType="textPersonName|text|textCapWords|textCapCharacters" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/update_PD"
+        android:textSize="20sp"
+        android:id="@+id/UpdatePD"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        />
+</LinearLayout>
+

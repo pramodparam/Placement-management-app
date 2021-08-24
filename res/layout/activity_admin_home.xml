@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EE43A047"
+    tools:context=".AdminHome">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/admin"
+        android:layout_marginTop="80dp"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:textSize="27sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"/>
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add_companies_admin"
+        android:layout_gravity="center"
+        android:id="@+id/addButton"
+        android:gravity="center"/>
+
+
+    <Button
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/listButton"
+        android:text="@string/company_list_admin" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_documents_admin"
+        android:layout_gravity="center"
+android:id="@+id/upload"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="@string/registered_students"
+        android:layout_gravity="center"
+android:id="@+id/registst"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="195dp"
+        android:id="@+id/psl"
+        android:layout_height="wrap_content"
+        android:text="@string/placed_student_list"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/logout_admin"
+        android:layout_marginTop="100dp"
+        android:id="@+id/logout"/>
+</LinearLayout>

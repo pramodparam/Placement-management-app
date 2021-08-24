@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE57F"
+    tools:context=".CompaniesList">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Companies"
+        android:textSize="30sp"
+
+     android:layout_marginTop="10dp"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        />
+
+<androidx.recyclerview.widget.RecyclerView
+android:id="@+id/companyListRecycle"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginStart="1dp"
+android:layout_marginTop="3dp"
+android:layout_marginEnd="1dp"
+android:layout_marginBottom="1dp">
+
+</androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>

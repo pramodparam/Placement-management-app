@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".PhoneNumberVerification">
+
+
+
+    <EditText
+        android:id="@+id/pNumber"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColorHint="#FF8F00"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints="no"
+        android:background="#C0CA33"
+        android:gravity="center"
+        android:hint="Phone Number"
+        android:inputType="number"/>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:layout_gravity="center"
+    android:text="Continue"
+    android:id="@+id/phoneContinueBtn"/>
+
+    <EditText
+        android:id="@+id/verifyCode"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColorHint="#FF8F00"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints="no"
+        android:background="#C0CA33"
+        android:gravity="center"
+        android:hint="Enter Code"
+        android:inputType="number"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Resend Code"
+    android:layout_marginStart="30dp"
+    android:id="@+id/resendCodeTv"
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Verify"
+        android:id="@+id/verify"/>
+
+
+</LinearLayout>

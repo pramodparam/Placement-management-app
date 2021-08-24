@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EE43A047"
+    tools:context=".addCompanies"
+    >
+
+    <EditText
+        android:id="@+id/companyName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints="no"
+        android:background="#C0CA33"
+        android:gravity="center"
+        android:hint="@string/enter_company_name"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        android:id="@+id/DateButton"
+        android:layout_marginEnd="20dp"
+        android:background="#C0CA33"
+        android:hint="@string/enter_recruitment_date"
+        android:inputType="date"
+        android:autofillHints="no" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColorHint="@color/black"
+        android:id="@+id/LocationButton"
+        android:background="#C0CA33"
+        android:hint="@string/enter_location"
+        android:lines="5"
+        android:inputType="textMultiLine"
+        android:autofillHints="no" />
+
+    <EditText
+        android:id="@+id/departmentButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColorHint="@color/black"
+        android:autofillHints="no"
+        android:background="#C0CA33"
+        android:gravity="center"
+        android:hint="@string/enter_department"
+        android:inputType="textPersonName|text|textCapSentences" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#43A047"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/dep"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/update_addComp"
+        android:textSize="20sp"
+        android:id="@+id/companyAddButton"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        />
+</LinearLayout>
